@@ -359,6 +359,16 @@ nav{
     display: flex;
 }
 
+.clients-list__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1B8;
+    border-radius: 4px;
+    max-width: 170px;
+    height: 90px;
+}
+
 .clients-list__element:not(:last-child){
     margin-right: 30px;
 }
