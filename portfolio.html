@@ -15,18 +15,22 @@
             <div class="flex-div">
                 <a class="nav__name-company"><p><span class="name-company--blue">Web</span>Studio</p></a>
                 <ul class="nav">
-                    <li><a class="nav__link " href="./index.html"><p class="company-nav">Студия</p></a></li>
-                    <li><a class="nav__link" href="./portfolio.html"><p class="portfolio-nav">Портфолио</p></a></li>
-                    <li><a class="nav__link"><p class="contakts-nav">Контакты</p></a></li>
+                    <li class="nav__element"><a class="nav__link " href="./index.html"><p class="company-nav">Студия</p></a></li>
+                    <li class="nav__element"><a class="nav__link" href="./portfolio.html"><p class="portfolio-nav">Портфолио</p></a></li>
+                    <li class="nav__element"><a class="nav__link"><p class="contakts-nav">Контакты</p></a></li>
                 </ul>
             </div>
             <ul class="contacts">
                 <li class="contackts__element">
-                    <img src="./img/mail.svg" alt="картинка почти">
+                    <svg class="contackts__icon mail">
+                        <use href="./img/symbol-defs.svg#mail"></use>
+                    </svg>
                     <a class="contacts__text contacts__text--right" href="info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li class="contackts__element">
-                    <img src="./img/Vectorphone.svg" alt="картинка телефона">
+                    <svg class="contackts__icon phone">
+                        <use href="./img/symbol-defs.svg#phone"></use>
+                    </svg>
                     <a class="contacts__text" href="+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
@@ -102,23 +106,47 @@
                 <a class="adress__link" href="+380991111111">+38 099 111 11 11</a>
             </address>
             <!--Go-->
-            <section class="go">
+            <div class="go">
                 <h3 class="go__title">Присоединяйтесь</h3>
-                <ul class="go__ss-link">
-                    <li><img src="./img/Ellipseinstagram.png" alt="лого Инстаграма"></li>
-                    <li><img src="./img/EllipseTwiter.png" alt="лого Твитера"></li>
-                    <li><img src="./img/EllipseFacebbok.png" alt="лого Фейсбука"></li>
-                    <li><img src="./img/EllipseLinkedIn.png" alt="лого ЛинкедИна"></li>
+                <ul class="ss-list">
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </section>
+            </div>
             <!--Lets Go-->
-            <section class="lets-go">
+            <div class="lets-go">
                 <h3 class="lets-go__title">Подписаться на рассылку</h3>
                 <div class="lets-go__form">
                 <p class="lets-go__text">E-mail</p>
                 <button type="button" class="lets-go__btn" href="">Подписаться</button>
                 </div>
-            </section>
+            </div>
         </div>
         <p class="copyright">2020 | Developed by GoIT Students </p>
     </footer>

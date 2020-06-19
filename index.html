@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css”/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>WebStudio</title>
 </head>
@@ -16,23 +16,27 @@
             <div class="flex-div">
                 <a class="nav__name-company"><p><span class="name-company--blue">Web</span>Studio</p></a>
                 <ul class="nav">
-                    <li><a class="nav__link " href="./index.html"><p class="company-nav">Студия</p></a></li>
-                    <li><a class="nav__link" href="./portfolio.html"><p class="portfolio-nav">Портфолио</p></a></li>
-                    <li><a class="nav__link"><p class="contakts-nav">Контакты</p></a></li>
+                    <li class="nav__element"><a class="nav__link " href="./index.html"><p class="company-nav">Студия</p></a></li>
+                    <li class="nav__element"><a class="nav__link" href="./portfolio.html"><p class="portfolio-nav">Портфолио</p></a></li>
+                    <li class="nav__element"><a class="nav__link"><p class="contakts-nav">Контакты</p></a></li>
                 </ul>
             </div>
             <ul class="contacts">
-                <li class="contackts__element">
-                    <svg class="contackts__icon mail">
-                        <use href="./img/symbol-defs.svg#mail"></use>
-                    </svg>
-                    <a class="contacts__text contacts__text--right" href="info@devstudio.com">info@devstudio.com</a>
+                <li class="contacts__element">
+                    <div class="contacts__text">
+                        <svg class="contackts__icon mail">
+                            <use href="./img/symbol-defs.svg#mail"></use>
+                        </svg>
+                        <a class="contacts__link contacts__link--right" href="info@devstudio.com">info@devstudio.com</a>
+                    </div>
                 </li>
-                <li class="contackts__element">
-                    <svg class="contackts__icon phone">
-                        <use href="./img/symbol-defs.svg#phone"></use>
-                    </svg>
-                    <a class="contacts__text" href="+380961111111">+38 096 111 11 11</a>
+                <li class="contacts__element">
+                    <div class="contacts__text">
+                        <svg class="contackts__icon phone">
+                            <use href="./img/symbol-defs.svg#phone"></use>
+                        </svg>
+                        <a class="contacts__link" href="+380961111111">+38 096 111 11 11</a>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -104,8 +108,8 @@
                 </ul>
             </section>
             <!--Comand-->
-            <div class="comand--color">
-                <section class="comand">
+            <section class="comand--color">
+                <div class="comand">
                     <h2 class="comand__title">Наша команда</h2>
                     <ul class="personal">
                         <li class="worker">
@@ -113,25 +117,33 @@
                             <h3 class="worker__name">John Smith</h3>
                             <p class="worker__text">Product Designer</p>
                             <ul class="ss-list">
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#instagram"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#twitter"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#facebook"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#linkedin"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
                                 </li>
                             </ul>
                         </li>
@@ -140,25 +152,33 @@
                             <h3 class="worker__name">Marta Stewart</h3>
                             <p class="worker__text">Frontend Developer</p>
                             <ul class="ss-list">
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#instagram"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#twitter"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#facebook"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#linkedin"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
                                 </li>
                             </ul>
                         </li>
@@ -167,25 +187,33 @@
                             <h3 class="worker__name">Robert Jakis</h3>
                             <p class="worker__text">Marketing</p>
                             <ul class="ss-list">
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#instagram"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#twitter"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#facebook"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#linkedin"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
                                 </li>
                             </ul>
                         </li>
@@ -194,73 +222,81 @@
                             <h3 class="worker__name">Martin Doe</h3>
                             <p class="worker__text">UI Designer</p>
                             <ul class="ss-list">
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#instagram"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#instagram"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#twitter"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#twitter"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#facebook"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#facebook"></use>
+                                        </svg>
+                                    </a>
                                 </li>
-                                <li>
-                                    <svg class="ss-link__ss">
-                                        <use href="./img/symbol-defs.svg#linkedin"></use>
-                                    </svg>
+                                <li class="ss-list__element">
+                                    <a class="ss-link">
+                                        <svg class="ss-link__ss">
+                                            <use href="./img/symbol-defs.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
-                </section>
-            </div>
+                </div>
+            </section>
             <!--Clients-->
             <section class="clients">
                 <h2 class="clients__title">Постоянные клиенты</h2>
                 <ul class="clients-list">
                     <li class="clients-list__element">
                         <a class="clients-list__link">
-                            <svg class="clients-list__icon">
+                            <svg width="45" height="50" class="clients-list__icon">
                                 <use href="./img/symbol-defs.svg#logo1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list__element">
                         <a class="clients-list__link">
-                            <svg class="clients-list__icon">
+                            <svg width="40" height="52" class="clients-list__icon">
                                 <use href="./img/symbol-defs.svg#logo2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list__element">
                         <a class="clients-list__link">
-                            <svg class="clients-list__icon">
+                            <svg width="41" height="43" class="clients-list__icon">
                                 <use href="./img/symbol-defs.svg#logo3"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list__element">
                         <a class="clients-list__link">
-                            <svg class="clients-list__icon">
+                            <svg width="80" height="42" class="clients-list__icon">
                                 <use href="./img/symbol-defs.svg#logo4"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list__element">
                         <a class="clients-list__link">
-                            <svg class="clients-list__icon">
+                            <svg width="59" height="47" class="clients-list__icon">
                                 <use href="./img/symbol-defs.svg#logo5"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list__element">
                         <a class="clients-list__link">
-                            <svg class="clients-list__icon">
+                            <svg width="89" height="45" class="clients-list__icon">
                                 <use href="./img/symbol-defs.svg#logo6"></use>
                             </svg>
                         </a>
@@ -282,25 +318,33 @@
             <div class="go">
                 <h3 class="go__title">Присоединяйтесь</h3>
                 <ul class="ss-list">
-                    <li>
-                        <svg class="ss-link__ss">
-                            <use href="./img/symbol-defs.svg#instagram"></use>
-                        </svg>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <svg class="ss-link__ss">
-                            <use href="./img/symbol-defs.svg#twitter"></use>
-                        </svg>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <svg class="ss-link__ss">
-                            <use href="./img/symbol-defs.svg#facebook"></use>
-                        </svg>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#facebook"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <svg class="ss-link__ss">
-                            <use href="./img/symbol-defs.svg#linkedin"></use>
-                        </svg>
+                    <li class="ss-list__element">
+                        <a class="ss-link">
+                            <svg class="ss-link__ss">
+                                <use href="./img/symbol-defs.svg#linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -309,7 +353,7 @@
                 <h3 class="lets-go__title">Подписаться на рассылку</h3>
                 <div class="lets-go__form">
                 <p class="lets-go__text">E-mail</p>
-                <button type="button" class="lets-go__btn" href="">Подписаться</button>
+                <button type="button" class="lets-go__btn" href=""><span class="btn__text">Подписаться</span><svg width="24" height="24" class="clients-list__icon"><use href="./img/symbol-defs.svg#fly"></use></svg></button>
                 </div>
             </div>
         </div>
