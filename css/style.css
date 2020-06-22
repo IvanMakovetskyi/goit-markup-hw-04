@@ -168,7 +168,7 @@ nav{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 188px;
+    margin-bottom: 94px;
 }
 
 .main-pynkts__title{
@@ -264,16 +264,15 @@ nav{
 /*Comand*/ /*Команда*/
 
 .comand{
-    padding-top: 94px;
-    width: 1200px;
-    height: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 94px;
+    padding: 94px 0px;
+    background-color: #F5F4FA;
 }
 
-.comand--color{
-    background-color: #F5F4FA;
+.comand--width{
+    width: 1200px;
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comand__title{
@@ -358,8 +357,8 @@ nav{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 95px;
-    margin-bottom: 95px;
+    padding-top: 94px;
+    margin-bottom: 94px;
 }
 
 .clients__title{
@@ -561,6 +560,7 @@ address{
 
 .our-projects{
     width: 1240px;
+    padding-top: 94px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -576,7 +576,6 @@ address{
 .list-nav{
     display: flex;
     width: 640px;
-    margin-top: 95px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
