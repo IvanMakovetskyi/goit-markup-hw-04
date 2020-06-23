@@ -84,7 +84,7 @@ nav{
     color: #212121;
 }
 
-.nav__element:not(last-child){
+.nav__element:not(:last-child){
     margin-right: 50px;
 }
 
@@ -111,7 +111,7 @@ nav{
     color: #757575;
 }
 
-.contacts__link--right{
+.contacts__element:not(:last-child){
     margin-right: 30px;
 }
 
